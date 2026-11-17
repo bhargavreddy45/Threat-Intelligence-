@@ -1,0 +1,12 @@
+SIMPLE TCP PORT SCANNER
+-----------------------------------
+
+Target: 127.0.0.1
+Scanning selected TCP ports...
+
+Port 22: CLOSED or FILTERED
+Port 80: CLOSED or FILTERED
+Port 443: CLOSED or FILTERED
+Port 8080: OPEN
+
+Scan completed.

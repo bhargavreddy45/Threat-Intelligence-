@@ -1,0 +1,11 @@
+VPN CONFIDENTIALITY DEMONSTRATION
+------------------------------------------
+
+Original message: Confidential SOC report
+Captured transit data (hex): 371d0f0f070d0b095902041554212e2a4e1b0b17421911
+Without decryption, the data is not readable as plaintext.
+
+After decryption with the shared key: Confidential SOC report
+
+Confidentiality demonstration completed.
+WARNING: XOR is not secure VPN encryption.

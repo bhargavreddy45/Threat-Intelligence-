@@ -1,0 +1,11 @@
+SIMPLIFIED MALWARE ANALYSIS (SIMULATED)
+
+Static analysis
+SHA-256: 27e45b5435c5cabd70520e13af332d346a80d304f5c3e9e9c75ab08477252948
+Suspicious API strings: ['CreateRemoteThread', 'VirtualAlloc']
+
+Dynamic analysis - simulated behavior log
+- Attempted persistence through registry run key
+- Outbound connection attempted
+
+This is a safe simulation; no malware is executed.

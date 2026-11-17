@@ -1,0 +1,13 @@
+Security Incident Root-Cause Classifier
+--------------------------------------------------
+
+Classification Results
+--------------------------------------------------
+Phishing: 3
+Unpatched Vulnerability: 0
+Misconfiguration: 0
+Insider Threat: 1
+Supply-Chain Compromise: 0
+
+Most Likely Root Cause:
+Phishing

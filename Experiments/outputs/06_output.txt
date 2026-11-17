@@ -1,0 +1,5 @@
+Warning: Suspicious URL detected!
+Risk score: 3
+- Suspicious keyword found
+- IP address used as domain
+- Uses HTTP instead of HTTPS

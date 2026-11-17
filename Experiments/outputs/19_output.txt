@@ -1,0 +1,10 @@
+SIMULATED SPLUNK SEARCH AND STATS
+
+Search: status=401
+{'host': 'web01', 'sourcetype': 'access', 'status': 401, 'user': 'bob'}
+{'host': 'vpn01', 'sourcetype': 'auth', 'status': 401, 'user': 'bob'}
+{'host': 'web02', 'sourcetype': 'access', 'status': 401, 'user': 'alice'}
+
+Stats: count by sourcetype
+access: 4
+auth: 1

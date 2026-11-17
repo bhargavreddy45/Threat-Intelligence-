@@ -1,0 +1,7 @@
+MULTI-SOURCE SIEM CORRELATION
+Firewall events: [{'src_ip': '198.51.100.25', 'event': 'connection_allowed'}, {'src_ip': '198.51.100.25', 'event': 'repeated_auth_traffic'}]
+Windows events: [{'src_ip': '198.51.100.25', 'account': 'administrator', 'event': 'failed_login', 'count': 5}]
+VPN events: [{'src_ip': '198.51.100.25', 'account': 'administrator', 'event': 'vpn_success'}]
+
+Correlation results:
+ALERT: {'src_ip': '198.51.100.25', 'account': 'administrator', 'failed_attempts': 5, 'alert': 'Correlated brute-force pattern followed by VPN success'}

@@ -1,0 +1,6 @@
+CHAIN-OF-CUSTODY VALIDATOR
+{'id': 'E001', 'timestamp': '2026-11-16T09:00:00', 'evidence': 'disk_image.dd', 'previous_hash': 'GENESIS', 'hash': '6e07238e772cba985a376ac62b9196ef2b595d1fd6ea9d2e81057584b5b7f0ba'}
+{'id': 'E002', 'timestamp': '2026-11-16T09:15:00', 'evidence': 'sealed_usb', 'previous_hash': '6e07238e772cba985a376ac62b9196ef2b595d1fd6ea9d2e81057584b5b7f0ba', 'hash': 'c02635ad3e33e7997c293f5ca9f8117ee01672fa3ac567aacdbf38fb3552ff76'}
+{'id': 'E003', 'timestamp': '2026-11-16T09:30:00', 'evidence': 'evidence_bag_03', 'previous_hash': 'c02635ad3e33e7997c293f5ca9f8117ee01672fa3ac567aacdbf38fb3552ff76', 'hash': '2030ea4468b8d71e36587e22647d22a39b0ef59a3cfea7bee6d7b0030402659a'}
+
+RESULT: VALID - unbroken hash and timestamp chain

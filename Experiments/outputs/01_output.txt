@@ -1,0 +1,6 @@
+THREAT INTELLIGENCE APPLICATION CLASSIFIER
+---------------------------------------------
+
+RESULT
+Application Area: Banking Fraud Prevention
+Reason: Detect suspicious transactions and financial fraud.

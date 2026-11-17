@@ -1,0 +1,4 @@
+Outbound connection ALLOWED
+Connection recorded: ('Client', 'WebServer', 443)
+Inbound return traffic ALLOWED
+Inbound traffic BLOCKED

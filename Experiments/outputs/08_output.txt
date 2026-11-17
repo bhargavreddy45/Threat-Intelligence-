@@ -1,0 +1,12 @@
+Guest -> Guest
+Access ALLOWED
+
+Guest -> Sensitive
+Access BLOCKED by segmentation policy
+
+Employee -> Sensitive
+Access BLOCKED by segmentation policy
+
+Sensitive -> Employee
+Access ALLOWED
+

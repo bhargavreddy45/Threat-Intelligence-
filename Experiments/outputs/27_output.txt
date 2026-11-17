@@ -1,0 +1,5 @@
+CONTEXT-AWARE SIGNATURE IDS
+Packet 1: ALERT: HTTP SQLi indicator
+Packet 2: ALERT: DNS tunneling marker
+Packet 3: No alert
+Packet 4: No alert

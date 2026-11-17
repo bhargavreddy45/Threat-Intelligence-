@@ -1,0 +1,7 @@
+POST-INCIDENT REPORT IMPROVEMENT TAGGER
+Report: The team will improve patch management, provide phishing awareness training, tune SIEM monitoring, test offline backups, and review least-privilege access.
+Improvement areas identified:
+- Patch management
+- Security awareness
+- Monitoring
+- Backup strategy

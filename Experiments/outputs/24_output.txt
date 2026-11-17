@@ -1,0 +1,12 @@
+SECURITY CONTROL BASELINE CHECK
+mfa_enabled: True
+disk_encryption: False
+endpoint_protection: True
+critical_patching_days: 30
+backup_frequency_hours: 48
+logging_enabled: True
+
+Controls failing the minimum baseline:
+- disk_encryption: current=False; required=True
+- critical_patching_days: current=30; required=14
+- backup_frequency_hours: current=48; required=24

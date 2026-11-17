@@ -1,0 +1,5 @@
+INCIDENT CONTAINMENT RECOMMENDER
+Incident: Several workstations show ransomware and files encrypted.
+Category: Ransomware
+Recommended containment: Isolate affected endpoints from the network; preserve evidence; activate recovery procedures.
+Confirm actions against your incident-response plan before execution.

@@ -1,0 +1,118 @@
+
+Running 10 attack simulations...
+
+
+--- Simulation 1 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack BLOCKED by Firewall
+
+--- Simulation 2 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack BLOCKED by Firewall
+
+--- Simulation 3 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack bypassed Firewall
+
+Testing Layer: IDS/IPS
+RESULT: Attack BLOCKED by IDS/IPS
+
+--- Simulation 4 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack BLOCKED by Firewall
+
+--- Simulation 5 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack BLOCKED by Firewall
+
+--- Simulation 6 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack bypassed Firewall
+
+Testing Layer: IDS/IPS
+RESULT: Attack BLOCKED by IDS/IPS
+
+--- Simulation 7 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack bypassed Firewall
+
+Testing Layer: IDS/IPS
+RESULT: Attack bypassed IDS/IPS
+
+Testing Layer: Endpoint Protection
+RESULT: Attack BLOCKED by Endpoint Protection
+
+--- Simulation 8 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack bypassed Firewall
+
+Testing Layer: IDS/IPS
+RESULT: Attack bypassed IDS/IPS
+
+Testing Layer: Endpoint Protection
+RESULT: Attack BLOCKED by Endpoint Protection
+
+--- Simulation 9 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack bypassed Firewall
+
+Testing Layer: IDS/IPS
+RESULT: Attack bypassed IDS/IPS
+
+Testing Layer: Endpoint Protection
+RESULT: Attack BLOCKED by Endpoint Protection
+
+--- Simulation 10 ---
+============================================================
+DEFENSE-IN-DEPTH ATTACK SIMULATION
+============================================================
+
+Testing Layer: Firewall
+RESULT: Attack BLOCKED by Firewall
+
+============================================================
+FINAL RESULTS
+============================================================
+Total attacks: 10
+Attacks blocked: 10
+Attacks that passed all layers: 0
+
+Conclusion:
+Defense-in-Depth provides protection through multiple
+overlapping security controls rather than relying on one layer.

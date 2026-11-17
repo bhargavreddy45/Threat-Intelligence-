@@ -1,0 +1,3 @@
+Experiment 11 - Packet Sniffing
+Not auto-run: live capture requires Scapy and may require administrator privileges.
+Run manually only on an authorized network.

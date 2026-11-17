@@ -1,0 +1,9 @@
+AUTHENTICATION BRUTE-FORCE PATTERN DETECTOR
+2026-11-16T09:00:01 user=alice status=FAIL
+2026-11-16T09:00:05 user=bob status=FAIL
+2026-11-16T09:00:09 user=alice status=FAIL
+2026-11-16T09:00:13 user=alice status=FAIL
+2026-11-16T09:00:20 user=alice status=SUCCESS
+
+Target account: alice
+ALERT: 3 failed logins followed by success at 2026-11-16T09:00:20

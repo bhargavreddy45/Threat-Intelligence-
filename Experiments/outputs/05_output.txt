@@ -1,0 +1,10 @@
+THREAT INTELLIGENCE REPORT CLASSIFIER
+---------------------------------------------
+
+CLASSIFICATION RESULTS
+Strategic: 0 matching indicators
+Tactical: 0 matching indicators
+Operational: 3 matching indicators
+
+Report classification: Operational
+Note: This is a keyword-based educational classifier.

@@ -1,0 +1,23 @@
+============================================================
+SIEM END-TO-END PIPELINE
+============================================================
+
+1. RAW EVENTS
+{'source': 'Firewall', 'message': 'Failed login from 192.168.1.50'}
+{'source': 'Windows', 'message': 'Failed login for administrator'}
+{'source': 'IDS', 'message': 'Multiple login attempts detected from 192.168.1.50'}
+{'source': 'Firewall', 'message': 'Connection blocked from 10.10.10.20'}
+
+2. NORMALIZED EVENTS
+{'timestamp': '2026-11-16 04:50:06', 'source': 'Firewall', 'event_type': 'FAILED_LOGIN', 'message': 'Failed login from 192.168.1.50'}
+{'timestamp': '2026-11-16 04:50:06', 'source': 'Windows', 'event_type': 'FAILED_LOGIN', 'message': 'Failed login for administrator'}
+{'timestamp': '2026-11-16 04:50:06', 'source': 'IDS', 'event_type': 'BRUTE_FORCE', 'message': 'Multiple login attempts detected from 192.168.1.50'}
+{'timestamp': '2026-11-16 04:50:06', 'source': 'Firewall', 'event_type': 'BLOCKED_CONNECTION', 'message': 'Connection blocked from 10.10.10.20'}
+
+3. CORRELATION
+Related authentication events: 3
+
+4. ALERT
+ALERT: Possible brute-force attack detected!
+
+SIEM pipeline completed.

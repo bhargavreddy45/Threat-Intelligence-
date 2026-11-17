@@ -1,0 +1,6 @@
+SOC Alert Priority Classifier
+----------------------------------------
+
+Alert:
+Multiple failed logins and suspicious PowerShell activity
+Assigned Priority: P2 - High

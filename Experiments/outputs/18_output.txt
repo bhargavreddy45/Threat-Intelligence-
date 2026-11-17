@@ -1,0 +1,5 @@
+SHA-256 MALWARE HASH CHECK
+File: /mnt/data/Cybersecurity_Experiments_01-30/data/hash_demo_sample.txt
+SHA-256: 08fb78181f071a031a66f40d23ae7aef5917a0d90cd6eaad2e5daf898fa801be
+RESULT: MATCH - DEMO-MALICIOUS-SIGNATURE
+Note: A no-match result does not prove a file is safe.

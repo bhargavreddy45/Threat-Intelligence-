@@ -1,0 +1,5 @@
+ISO/IEC 27001:2022 ANNEX A DOMAIN CLASSIFIER
+Control description: The organization requires multi-factor authentication for remote access.
+Domain scores: {'Organizational': 0, 'People': 0, 'Physical': 0, 'Technological': 2}
+Classified domain: Technological
+Domains: Organizational, People, Physical, Technological

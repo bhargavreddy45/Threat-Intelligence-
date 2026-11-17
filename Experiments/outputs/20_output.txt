@@ -1,0 +1,4 @@
+NETWORK THREAT CATEGORY CLASSIFIER
+Incident: A traffic flood made the public service unavailable.
+Scores: {'Phishing': 0, 'DoS/DDoS': 2, 'Malware': 0, 'Man-in-the-Middle': 0}
+Detected category: DoS/DDoS

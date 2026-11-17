@@ -1,0 +1,6 @@
+SIMULATED INLINE INTRUSION PREVENTION SYSTEM
+Whitelist: ['192.0.2.10']
+{'src': '198.51.100.20', 'protocol': 'TCP', 'port': 80, 'payload': 'GET /?q=UNION SELECT'} => BLOCK (SQL injection marker)
+{'src': '192.0.2.10', 'protocol': 'TCP', 'port': 80, 'payload': 'GET /?q=UNION SELECT'} => ALLOW (whitelisted trusted source)
+{'src': '198.51.100.30', 'protocol': 'TCP', 'port': 22, 'payload': 'UNION SELECT'} => ALLOW (no signature match)
+{'src': '203.0.113.8', 'protocol': 'TCP', 'port': 443, 'payload': 'POST /bin/sh'} => BLOCK (Suspicious shell payload)
